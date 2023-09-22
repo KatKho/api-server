@@ -102,7 +102,7 @@ SQL_CONNECTION_STRING=postgres://localhost:5434/database_name
 ## URLs
 
 - [Main branch](https://api-server-pb8u.onrender.com)
-- [PR](https://github.com/KatKho/api-server/pull/1)
+- [PR](https://github.com/KatKho/api-server/pull/4)
 - [GitHub Actions](https://github.com/KatKho/api-server/actions)
 
 ## Lab04 documentation
