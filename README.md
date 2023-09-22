@@ -107,8 +107,8 @@ SQL_CONNECTION_STRING=postgres://localhost:5434/database_name
 
 ## Lab04 documentation
 
-Partner: Josh Shea
-Takeaway: It is a good practice to leave comments.
+- Partner: Josh Shea
+- Takeaway: It is a good practice to leave comments.
 - [Partner review PR(Josh)](https://github.com/jshea44/api-server/pull/4)
 - [Partner review PR(myself)](https://github.com/KatKho/api-server/pull/3)
 
