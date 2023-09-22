@@ -4,13 +4,14 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 
-const foodRoutes = require('./routes/food');
-const clothesRoutes = require('./routes/clothes');
+const menuItemRoutes = require('./routes/menu-item');
+const restaurantsRoutes = require('./routes/restaurants');
 
 app.use(cors());
 app.use(express.json());
-app.use('/food', foodRoutes);
-app.use('/clothes', clothesRoutes);
+
+app.use('/api', menuItemRoutes);
+app.use('/api', restaurantsRoutes);
 
 module.exports = {
   app,
